@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label styleClass="welcomeHeading" text="Step 1 - Select your price range">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <Label styleClass="welcomeBody" text="Using the 'to' and 'from' fields in the top-right corner of the screen, pick your price range!">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <Label styleClass="welcomeHeading" text="Step 2 - Select your chosen borough">
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+      </Label>
+      <Label styleClass="welcomeBody" text="Once you've selected your price range, you can select a borough from the map. The map is colour coded to indicate the amount of properties in a given borough." wrapText="true">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <Label styleClass="welcomeHeading" text="Step 3 - Browse away at properties">
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+      </Label>
+      <Label styleClass="welcomeBody" text="You can now scroll through as many properties as you'd like..." />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets left="50.0" />
+   </padding>
+</VBox>
